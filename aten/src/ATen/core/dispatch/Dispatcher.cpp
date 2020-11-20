@@ -30,6 +30,7 @@ public:
 private:
   std::list<std::unique_ptr<OpRegistrationListener>> listeners_;
 };
+
 }
 
 OpRegistrationListener::~OpRegistrationListener() {}
